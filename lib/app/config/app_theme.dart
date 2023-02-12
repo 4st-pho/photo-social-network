@@ -6,11 +6,8 @@ class AppTheme {
   static final dark = ThemeData.dark();
   static final general = ThemeData(
     useMaterial3: true,
-    scaffoldBackgroundColor: AppColor.background,
-    fontFamily: 'Mulish',
-    splashFactory: NoSplash.splashFactory,
-    highlightColor: Colors.transparent,
-    splashColor: Colors.transparent,
+    scaffoldBackgroundColor: AppColor.white,
+    fontFamily: 'Roboto',
     // ignore: deprecated_member_use
     androidOverscrollIndicator: AndroidOverscrollIndicator.stretch,
   );

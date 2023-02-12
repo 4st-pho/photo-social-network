@@ -39,6 +39,7 @@ dependencies:
   firebase_core: ^2.5.0
   cloud_firestore: ^4.3.2
   flutter_launcher_icons: ^0.11.0
+  flutter_svg: ^1.1.6
 
 dev_dependencies:
   flutter_test:
@@ -79,7 +80,7 @@ flutter:
   uses-material-design: true
 
   assets:
-    # - assets/images/
+    - assets/images/
     - assets/icons/
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -94,9 +95,12 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: Mulish
+    - family: Roboto
       fonts:
-        - asset: assets/fonts/Mulish-Regular.ttf
+        - asset: assets/fonts/Roboto-Regular.ttf
+    - family: Comfortaa
+      fonts:
+        - asset: assets/fonts/Comfortaa-Regular.ttf
   #   - family: Trajan Pro
   #     fonts:
   #       - asset: fonts/TrajanPro.ttf
