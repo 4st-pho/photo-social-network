@@ -10,5 +10,6 @@ class AppTheme {
     fontFamily: 'Roboto',
     // ignore: deprecated_member_use
     androidOverscrollIndicator: AndroidOverscrollIndicator.stretch,
+    dividerColor: AppColor.lightGrey,
   );
 }

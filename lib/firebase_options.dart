@@ -66,7 +66,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '701222721634',
     projectId: 'photo-social-network-fc4b0',
     storageBucket: 'photo-social-network-fc4b0.appspot.com',
-    iosClientId: '701222721634-fp4jk6ildl3a2slll0oic31rc0qqv00f.apps.googleusercontent.com',
+    iosClientId:
+        '701222721634-fp4jk6ildl3a2slll0oic31rc0qqv00f.apps.googleusercontent.com',
     iosBundleId: 'com.example.photoSocialNetwork',
   );
 
@@ -76,7 +77,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '701222721634',
     projectId: 'photo-social-network-fc4b0',
     storageBucket: 'photo-social-network-fc4b0.appspot.com',
-    iosClientId: '701222721634-fp4jk6ildl3a2slll0oic31rc0qqv00f.apps.googleusercontent.com',
+    iosClientId:
+        '701222721634-fp4jk6ildl3a2slll0oic31rc0qqv00f.apps.googleusercontent.com',
     iosBundleId: 'com.example.photoSocialNetwork',
   );
 }

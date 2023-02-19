@@ -3,8 +3,11 @@ import 'package:photo_social_network/app/config/app_color.dart';
 import 'package:photo_social_network/app/config/app_text_style.dart';
 
 class LightButton extends StatelessWidget {
-  const LightButton({Key? key, required this.text, this.onPressed})
-      : super(key: key);
+  const LightButton({
+    Key? key,
+    required this.text,
+    required this.onPressed,
+  }) : super(key: key);
 
   final String text;
   final VoidCallback? onPressed;

@@ -43,7 +43,7 @@ class _RegisterPageState extends State<RegisterPage> {
         children: [
           const Text(
             AppString.registerCs,
-            style: AppTextStyle.comfortaaBlackW400extraLarge,
+            style: AppTextStyle.comfortaaBlackW400doubleExtraLarge,
           ),
           const SizedBox(height: 25),
           CommomTextFormField(

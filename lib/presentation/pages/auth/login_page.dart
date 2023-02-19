@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:photo_social_network/app/config/app_string.dart';
 import 'package:photo_social_network/app/config/app_text_style.dart';
+import 'package:photo_social_network/app/config/route_config.dart';
 import 'package:photo_social_network/presentation/common/app_back_button.dart';
 import 'package:photo_social_network/presentation/common/button/dark_button.dart';
 import 'package:photo_social_network/presentation/common/form/commom_text_form_field.dart';
@@ -22,6 +23,7 @@ class _LoginPageState extends State<LoginPage> {
     _emailController = TextEditingController();
     _passwordController = TextEditingController();
   }
+
   @override
   void dispose() {
     _emailController.dispose();
@@ -42,7 +44,7 @@ class _LoginPageState extends State<LoginPage> {
         children: [
           const Text(
             AppString.loginCs,
-            style: AppTextStyle.comfortaaBlackW400extraLarge,
+            style: AppTextStyle.comfortaaBlackW400doubleExtraLarge,
           ),
           const SizedBox(height: 25),
           CommomTextFormField(
@@ -60,7 +62,10 @@ class _LoginPageState extends State<LoginPage> {
               action: TextInputAction.done,
             ),
           ),
-          DarkButton(text: AppString.loginUs, onPressed: () {}),
+          DarkButton(
+              text: AppString.loginUs,
+              onPressed: () => Navigator.of(context)
+                  .pushNamedAndRemoveUntil(Routes.mainPage, (route) => false)),
         ],
       ),
     );

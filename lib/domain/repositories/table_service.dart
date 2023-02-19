@@ -1,3 +1,1 @@
-abstract class TableService{
-  
-}
+abstract class TableService {}
